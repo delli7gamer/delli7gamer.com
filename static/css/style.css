@@ -7,6 +7,7 @@ body {
     min-height: 100vh;
     justify-content: center;
 }
+
 #container {
     background-color: #2b2a2a9a;
     flex: 0 1 700px;
@@ -26,4 +27,19 @@ body {
     border-radius: 2px;
     padding: 18px;
     border: 1px solid #FFFFFF;
+}
+
+canvas {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    background: transparent;
+    pointer-events: none;
+    touch-action: none;
+}
+
+#controls {
+    margin-top: 18px;
 }
