@@ -37,6 +37,7 @@ body {
 #tiles {
     display: flex;
     gap: 8px;
+    flex-direction: column;
 }
 
 .tile {
