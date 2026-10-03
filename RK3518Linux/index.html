@@ -20,9 +20,9 @@
             box from this tutorial. I am NOT a professional and this is a hobby project. If you are here for piracy get
             lost.
         </div>
-        <br>
-        <img src="images/xfce.jpg" alt="rk3513box running xfce"
-            style="width: 80%; height: auto; display: block; margin: 0 auto;">
+        <div class="section"> <img src="images/xfce.jpg" alt="rk3513box running xfce"
+                style="width: 80%; height: auto; display: block; margin: 0 auto;"></div>
+
         <div class="section">
             <h2>Prerequisites</h2>
             <h3>Needed</h3>
@@ -90,7 +90,7 @@
             <br>
             <br>
             3. You are now ready to compile! Once in the cloned directory run the command:
-             ./build-image.sh path_to_img.xz r69
+            ./build-image.sh path_to_img.xz r69
             <br>
             <br>
             4. Find out where your new compiled .img file is and you will need to flash that to the microSD card.
@@ -108,25 +108,32 @@
             takes the longest at around 5 minutes due to it compiling drivers.
             <br>
             <br>
-            2. Once booted it will simply ask you for a username and password and thats it! You have booted linux on the TV Box.
+            2. Once booted it will simply ask you for a username and password and thats it! You have booted linux on the
+            TV Box.
         </div>
         <div class="section">
             <h2>Installing to EMMC</h2>
             1. When booted into the Armbian SD, run the command "sudo armbian-install"
             <br>
             <br>
-            2. After the GUI loads find and select the option "Boot from eMMC" this will install rootFS and all that fancy stuff.
-            DO NOT power off the box during this process because it will be hardbricked if you didnt back up android. After that it will
+            2. After the GUI loads find and select the option "Boot from eMMC" this will install rootFS and all that
+            fancy stuff.
+            DO NOT power off the box during this process because it will be hardbricked if you didnt back up android.
+            After that it will
             ask you to reboot or power off, after that remove the SD card and turn the box back on and boot into Linux!
         </div>
         <div class="section">
             <h2>Ending Notes</h2>
-            This is a basic guide that goes over the steps, do NOT use only this guide and please read through the repos and guides I linked.
-            This chipset is still new and not very powerful so dont expect a fast or smooth experience. My setup can comfortably run XFCE
-            and a few terminal based apps but it lags running a neofetch prompt so thats the baseline of the performance.
+            This is a basic guide that goes over the steps, do NOT use only this guide and please read through the repos
+            and guides I linked.
+            This chipset is still new and not very powerful so dont expect a fast or smooth experience. My setup can
+            comfortably run XFCE
+            and a few terminal based apps but it lags running a neofetch prompt so thats the baseline of the
+            performance.
         </div>
-        <img src="images/fastfetch.jpg" alt="rk3513box running xfce"
-            style="width: 80%; height: auto; display: block; margin: 0 auto;">
+        <div class="section">        <img src="images/fastfetch.jpg" alt="rk3513box running xfce"
+            style="width: 80%; height: auto; display: block; margin: 0 auto;"></div>
+
     </div>
 
 </body>

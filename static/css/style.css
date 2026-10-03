@@ -24,7 +24,17 @@ body {
     min-height: 100vh;
     justify-content: center;
 }
-
+.section {
+    background-color: #0000001a;
+    padding: 15px 20px;      
+    margin-bottom: 15px;     
+    border-radius: 3px;       
+    box-sizing: border-box;  
+    border: 1px solid #575757;
+}
+h1 {
+    text-align: center;
+}
 #container {
     background-color: #2b2a2a9a;
     flex: 0 1 700px;
@@ -68,6 +78,7 @@ button {
 
 a {
     color: rgb(0, 110, 255);
+    text-decoration: none;
 }
 
 p,
