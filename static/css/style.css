@@ -80,7 +80,12 @@ canvas {
 button {
     color: white;
 }
-
+h1 {
+    text-align: center;
+    margin-top: 0;
+    font-size: clamp(1.2rem, 5vw, 1.8rem); /* Automatically shrinks on narrow screens! */
+    overflow-wrap: anywhere;
+}
 a {
     color: rgb(0, 110, 255);
     text-decoration: none;
