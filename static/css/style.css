@@ -12,7 +12,12 @@
     text-rendering: optimizeSpeed !important;
     box-sizing: border-box;
 }
-
+.button-group {
+    display: inline-flex;
+    justify-content: center; 
+    align-items: center;  
+    gap: 10px;
+}
 body {
     background-color: #000000;
     background-image: url("/static/img/axiom-pattern.png");
@@ -39,7 +44,14 @@ body {
     border-radius: 3px;       
     border: 1px solid #575757;
 }
-
+.section-center {
+    background-color: #0000001a;
+    padding: 12px 15px;      
+    margin-bottom: 15px;     
+    border-radius: 3px;       
+    border: 1px solid #575757;
+    text-align: center;
+}
 h1 {
     text-align: center;
     margin-top: 0;
