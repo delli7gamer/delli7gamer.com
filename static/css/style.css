@@ -7,12 +7,10 @@
 *::before,
 *::after {
     font-family: "TerminusTTF" !important;
-
-    -webkit-font-smoothing: none !important;
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale !important;
-
     text-rendering: optimizeSpeed !important;
+    box-sizing: border-box;
 }
 
 body {
@@ -23,25 +21,29 @@ body {
     display: flex;
     min-height: 100vh;
     justify-content: center;
+    align-items: flex-start;
 }
-.section {
-    background-color: #0000001a;
-    padding: 15px 20px;      
-    margin-bottom: 15px;     
-    border-radius: 3px;       
-    box-sizing: border-box;  
-    border: 1px solid #575757;
-}
-h1 {
-    text-align: center;
-}
+
 #container {
     background-color: #2b2a2a9a;
-    flex: 0 1 700px;
     width: 100%;
     max-width: 700px;
-    padding: 18px;
-    box-sizing: border-box;
+    padding: 1rem;
+    min-height: 100vh;
+}
+
+.section {
+    background-color: #0000001a;
+    padding: 12px 15px;      
+    margin-bottom: 15px;     
+    border-radius: 3px;       
+    border: 1px solid #575757;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    font-size: 1.8rem;
 }
 
 #tiles {
@@ -53,10 +55,13 @@ h1 {
 .tile {
     background-color: #00000050;
     border-radius: 2px;
-    padding: 18px;
+    padding: 12px;
     border: 1px solid #FFFFFF;
+    word-break: break-word;
 }
-
+html {
+    font-size: 130%;
+}
 canvas {
     position: fixed;
     inset: 0;
@@ -85,5 +90,20 @@ p,
 button,
 div,
 a {
-    font-size: 16pt;
+    font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+    #container {
+        padding: 0.75rem;
+    }
+
+    p, button, div, a {
+        font-size: 0.9rem;
+    }
+
+    button {
+        min-height: 44px;
+        padding: 8px 16px;
+    }
 }
