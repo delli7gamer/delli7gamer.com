@@ -28,6 +28,10 @@ body {
     justify-content: center;
     align-items: flex-start;
 }
+head {
+    background-color: #000000;
+    background-image: url("/static/img/axiom-pattern.png");
+}
 
 #container {
     background-color: #2b2a2a9a;
