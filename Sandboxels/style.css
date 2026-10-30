@@ -10,6 +10,7 @@ html.homepage, body.homepage {
 }
 html {
 	background-color: #000000;
+    background-image: url("/static/img/bg.gif");
 	background-color: var(--theme-darkest2);
 }
 :root {

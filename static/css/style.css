@@ -20,7 +20,7 @@
 }
 body {
     background-color: #000000;
-    background-image: url("/static/img/axiom-pattern.png");
+    background-image: url("/static/img/bg.gif");
     color: white;
     margin: 0;
     display: flex;
